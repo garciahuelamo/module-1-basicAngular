@@ -1,0 +1,15 @@
+<app-home></app-home>
+
+<!-- Para asegurarnos que los componentes sean estáticos, deben ir por fuera del 
+ router-outlet, ya que en este, es donde Angular reemplaza el contenido según la ruta -->
+
+<app-tooltip></app-tooltip>
+
+<div>
+    <main class="cotent">
+        <router-outlet></router-outlet>
+    </main>
+</div>
+
+<app-footer></app-footer>
+
